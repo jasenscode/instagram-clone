@@ -1,6 +1,7 @@
 import "./App.scss";
 import Navbar from "./components/Navbar/Navbar";
 import ImageContainer from "./containers/ImageContainer/ImageContainer";
+import NumbersData from "./components/NumbersData/NumbersData";
 import { profileData } from "./data/data.js";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faHome, faUserCircle } from "@fortawesome/free-solid-svg-icons";
@@ -14,6 +15,7 @@ const App = () => {
   return (
     <div className="App">
       <Navbar />
+      <NumbersData numbers={profileData} />
       <ImageContainer imgArr={profileData.posts} />
     </div>
   );

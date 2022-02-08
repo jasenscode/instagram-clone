@@ -1,0 +1,18 @@
+.numbers-data {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid lightgray;
+  padding: 0.6rem;
+  &__item {
+    display: flex;
+    flex-direction: column;
+    & > p {
+      margin: 0;
+      color: darkgray;
+      font-size: 0.9rem;
+    }
+    & > span {
+      font-weight: bold;
+    }
+  }
+}
