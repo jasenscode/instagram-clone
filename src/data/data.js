@@ -9,9 +9,9 @@ export const profileData = {
     { imgUrl: "https://images.unsplash.com/photo-1500259571355-332da5cb07aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fGNhdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60", label: "Foster Friday" },
     { imgUrl: "https://images.unsplash.com/photo-1570458436416-b8fcccfe883f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzV8fGNhdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60", label: "On Netflix!" },
   ],
-  postCount: 16889,
+  postCount: 10,
   followerCount: 13100000,
-  followingCount: 7,
+  followingCount: 120100,
   posts: [
     "https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
     "https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2F0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
