@@ -6,8 +6,8 @@ export const profileData = {
   bioBody: "This is my biography text",
   bioUrl: "www.catsofinstagram.com",
   highlights: [
-    { imgUrl: "www.link-here.com", label: "FosterFriday" },
-    { imgUrl: "www.link-here.com", label: "On Netflix!" },
+    { imgUrl: "https://images.unsplash.com/photo-1500259571355-332da5cb07aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fGNhdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60", label: "Foster Friday" },
+    { imgUrl: "https://images.unsplash.com/photo-1570458436416-b8fcccfe883f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzV8fGNhdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60", label: "On Netflix!" },
   ],
   postCount: 16889,
   followerCount: 13100000,
