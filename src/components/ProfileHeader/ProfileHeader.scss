@@ -1,0 +1,52 @@
+.profile-header {
+  display: flex;
+  padding: 1.2rem 1rem;
+  gap: 1rem;
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__image {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  &__details {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  &__name {
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin: 0;
+    width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  &__verified {
+    color: rgb(129, 129, 255);
+  }
+  &__more {
+    font-size: 1.2rem;
+  }
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 0.5rem;
+    &--follow {
+      flex: 1;
+    }
+    & > button {
+      border: none;
+      padding: 0.3rem 0.7rem;
+      border-radius: 2px;
+      color: white;
+      background-color: rgb(109, 109, 255);
+    }
+  }
+}

@@ -7,10 +7,10 @@ import Highlights from "./components/Highlights/Highlights";
 import ProfileHeader from "./components/ProfileHeader/ProfileHeader";
 import { profileData } from "./data/data.js";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faHome, faUserCircle, faBorderAll, faVideo, faIdCardAlt } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faUserCircle, faBorderAll, faVideo, faIdCardAlt, faCheckCircle, faEllipsisH, faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { faPaperPlane, faPlusSquare, faCompass, faHeart, faPlayCircle } from "@fortawesome/free-regular-svg-icons";
 
-library.add(faHome, faPaperPlane, faPlusSquare, faCompass, faHeart, faUserCircle, faBorderAll, faPlayCircle, faVideo, faIdCardAlt);
+library.add(faHome, faPaperPlane, faPlusSquare, faCompass, faHeart, faUserCircle, faBorderAll, faPlayCircle, faVideo, faIdCardAlt, faCheckCircle, faEllipsisH, faAngleDown);
 
 const App = () => {
   console.log(profileData);
