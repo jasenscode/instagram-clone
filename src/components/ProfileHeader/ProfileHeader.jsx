@@ -12,7 +12,7 @@ const ProfileHeader = (props) => {
         <div className="profile-header__details">
           <p className="profile-header__name">{headerData.displayName}</p>
           {headerData.isVerified ? <FontAwesomeIcon icon="check-circle" className="profile-header__verified" /> : null}
-          <a href="#">
+          <a href="/#">
             <FontAwesomeIcon icon="ellipsis-h" className="profile-header__more" />
           </a>
         </div>

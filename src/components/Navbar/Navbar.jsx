@@ -8,22 +8,22 @@ const Navbar = () => {
     <div className="navbar">
       <img src={TextLogo} alt="company-text-logo" className="navbar__logo" />
       <div className="navbar__icons">
-        <a href="#">
+        <a href="/#">
           <FontAwesomeIcon icon="home" className="navbar__icon" />
         </a>
-        <a href="#">
+        <a href="/#">
           <FontAwesomeIcon icon={["far", "paper-plane"]} className="navbar__icon" />
         </a>
-        <a href="#">
+        <a href="/#">
           <FontAwesomeIcon icon={["far", "plus-square"]} className="navbar__icon" />
         </a>
-        <a href="#">
+        <a href="/#">
           <FontAwesomeIcon icon={["far", "compass"]} className="navbar__icon" />
         </a>
-        <a href="#">
+        <a href="/#">
           <FontAwesomeIcon icon={["far", "heart"]} className="navbar__icon" />
         </a>
-        <a href="#">
+        <a href="/#">
           <FontAwesomeIcon icon="user-circle" className="navbar__icon navbar__icon--user" />
         </a>
       </div>
