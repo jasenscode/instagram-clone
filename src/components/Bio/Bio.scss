@@ -1,0 +1,17 @@
+.bio {
+  text-align: left;
+  padding: 0.5rem 1rem;
+  width: 60%;
+  & > p,
+  a {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  &__header {
+    font-weight: bold;
+  }
+  &__url {
+    text-decoration: none;
+    font-weight: 600;
+  }
+}

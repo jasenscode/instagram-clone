@@ -5,6 +5,7 @@ import NumbersData from "./components/NumbersData/NumbersData";
 import PostsNav from "./components/PostsNav/PostsNav";
 import Highlights from "./components/Highlights/Highlights";
 import ProfileHeader from "./components/ProfileHeader/ProfileHeader";
+import Bio from "./components/Bio/Bio";
 import { profileData } from "./data/data.js";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faHome, faUserCircle, faBorderAll, faVideo, faIdCardAlt, faCheckCircle, faEllipsisH, faAngleDown } from "@fortawesome/free-solid-svg-icons";
@@ -17,6 +18,7 @@ const App = () => {
     <div className="App">
       <Navbar />
       <ProfileHeader headerData={profileData} />
+      <Bio bioData={profileData} />
       <Highlights highlights={profileData.highlights} />
       <NumbersData numbers={profileData} />
       <PostsNav />

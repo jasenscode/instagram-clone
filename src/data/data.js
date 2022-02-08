@@ -3,7 +3,7 @@ export const profileData = {
   displayName: "cats_of_instagram",
   isVerified: true,
   bioHeader: "Cats of Instagram",
-  bioBody: "This is my biography text",
+  bioBody: "This is a page dedicated to cats of all shapes and sizes 😻",
   bioUrl: "www.catsofinstagram.com",
   highlights: [
     { imgUrl: "https://images.unsplash.com/photo-1500259571355-332da5cb07aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fGNhdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60", label: "Foster Friday" },
