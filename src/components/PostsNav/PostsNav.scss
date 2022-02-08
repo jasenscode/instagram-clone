@@ -1,0 +1,13 @@
+.posts-nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.6rem 0rem;
+  border-bottom: 1px solid lightgray;
+  &__icon {
+    color: darkgray;
+    font-size: 1.4rem;
+    &--active {
+      color: rgb(70, 70, 228);
+    }
+  }
+}
