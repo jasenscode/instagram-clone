@@ -13,8 +13,6 @@ import { faPaperPlane, faPlusSquare, faCompass, faHeart, faPlayCircle } from "@f
 library.add(faHome, faPaperPlane, faPlusSquare, faCompass, faHeart, faUserCircle, faBorderAll, faPlayCircle, faVideo, faIdCardAlt, faCheckCircle, faEllipsisH, faAngleDown);
 
 const App = () => {
-  console.log(profileData);
-
   return (
     <div className="App">
       <Navbar />
