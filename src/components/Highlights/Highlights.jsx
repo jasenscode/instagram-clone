@@ -7,7 +7,7 @@ const Highlights = (props) => {
   const createHighlight = highlights.map((highlight, index) => {
     return (
       <div className="highlights__item" key={"highlight" + index}>
-        <img src={highlight.imgUrl} />
+        <img src={highlight.imgUrl} alt="highlight" />
         <span>{highlight.label}</span>
       </div>
     );
