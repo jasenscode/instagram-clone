@@ -1,5 +1,5 @@
 export const profileData = {
-  profilePic: "imageURL",
+  profilePic: "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0JTIwc3VuZ2xhc3Nlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
   displayName: "cats_of_instagram",
   isVerified: true,
   bioHeader: "Cats of Instagram",
